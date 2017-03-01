@@ -1,0 +1,16 @@
+{
+	"complement": "When difference of two angles whose sum is 90 degrees",
+	"supplement": "The difference of two angles whose sum is 180 degress",
+	"degrees": "A unit used to measure an angle.",
+	"minutes": "A unit for measuring angles more precise than degrees, 60 minutes is equal to 1 degrees",
+	"seconds": "A unit for measuring angles that is more precise than minutes, 60 seconds is equal to 1 minute",
+	"standard position": "An angle is in standard position if its vertex is at the origin and its initial side lies on the positive x-axis.",
+	"terminal side": "The ray where measurement of an angle stops",
+	"initial side": "The ray where measurement of an angle starts",
+	"coterminal angles": "Angles with the same initial side and the same terminal side but have a different roation.  The measurement is a multiple of 360."
+	"hypotenuse": "The longest side of a right triangle, opposite of the right angle",
+	"sin": "'Sine', A function of the opposite end of an angle over hypotenuse",
+	"cos": "'Cosine', A function of the adjacent end of a triangle over hypotenuse",
+
+}
+
