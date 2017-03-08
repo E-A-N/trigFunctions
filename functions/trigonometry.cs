@@ -3,12 +3,12 @@ namespace ConsoleApplication{
 
     public class Triangle{
 
-        private const int angle1;
-        private const int angle2;
-        private const int angle3;
-        private const int oppositeLength;
-        private const int adjacentLength;
-        private const int valid;
+        private  int angle1;
+        private  int angle2;
+        private  int angle3;
+        private  int oppositeLength;
+        private  int adjacentLength;
+        private  int valid;
 
         public void setAngles(int a1, int a2, int a3){
             this.angle1 = a1;
