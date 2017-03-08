@@ -14,11 +14,12 @@ namespace ConsoleApplication{
             this.angle1 = a1;
             this.angle2 = a2;
             this.angle3 = a3;
+            this.validateAngles();
         }
 
         private bool validateAngles(){
             bool validate;
-            int area = this.angle1 + this.angle2 + this.angle1;
+            int area = this.angle1 + this.angle2 + this.angle3;
 
             if (area == 180){
                 validate = true;
@@ -32,12 +33,10 @@ namespace ConsoleApplication{
     }
 
     public class TrigFuncs {
-        public static int sine(int x, int y){
+        public static int sine(int x, int y, Triangle tri){
             //hypotenuse
             int r = (x * x) + (y * y);
-
             return r;
-
         }
 
 
