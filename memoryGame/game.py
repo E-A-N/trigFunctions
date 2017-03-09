@@ -5,22 +5,25 @@ import random
 
 def triviaChoice(triv):
     '''
-        @string triv: key used to access definitions api subject of choice
+    Randomly generates and returns a random piece of data.
+    :type triv: string
+    :param triv: key used to access data interface subject of choice
     '''
     subject = definitions.trig[triv]
     fieldList = subject["fieldList"]
     subFieldList = subject["subFieldList"]
-    optNum = len(subject) - 1
+    #Offset the length by 3 to make intended fields inaccessible
+    optNum = len(subject) - 3
     fieldPick = random.randint(0,optNum)
-    field = subject[fieldPick]
+    field = subject[ fieldList[ fieldPick ]]
     optNum = len(field) - 1
     subFieldPick = random.randint(0,optNum)
-    subField = field[subFieldPick]
-
-    return
+    subField = field[ subFieldList[ subFieldPick ]]
+    return subField
 
 def main():
     choice = triviaChoice("angles")
+    #choice = definitions.trig["angles"]
     print(choice)
     return
 

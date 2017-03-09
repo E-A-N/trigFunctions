@@ -75,7 +75,7 @@ angles = {
 
     #Field Lists should always be last element
     "fieldList":["complement","supplement","degrees","minutes","theta"],
-    "subFieldList": ["name","definition"]
+    "subFieldList": ["definition"],
 }
 
 trig["functions"] = functions
