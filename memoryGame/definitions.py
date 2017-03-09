@@ -46,9 +46,9 @@ triangle = {
         "definition": "The opposite side that is the longest side the right angle in a right triangle. Referred to as 'r'",
     },
     "opposite": {
-        "name":"hypotenuse",
+        "name":"opposite",
         "formula": "(x^2 + y^2)^0.5",
-        "definition": "The Longest side of a right triangle, opposite of the right angle.  Often referred to as the variable 'x'",
+        "definition": "The side of a triangle that is neither adjacent or the hypotenuse.  Often referred to as the variable 'x'",
     },
 }
 angles = {
