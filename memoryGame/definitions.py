@@ -51,33 +51,29 @@ triangle = {
         "definition": "The Longest side of a right triangle, opposite of the right angle.  Often referred to as the variable 'x'",
     },
 }
-
-
-geometry = {
-    "hypotenuse": {
-        "name":"hypotenuse",
-        "formula": "(x^2 + y^2)^0.5",
-        "definition": "The Longest side of a right triangle, opposite of the right angle"
-    },
+angles = {
     "complement": {
-        "name":"complement",
-        "formula": "Math formula",
+        "name":"Complement",
         "definition": "The difference of two angles angles whose sume is 90 degrees"
     },
     "supplement": {
-        "formula": "Math formula",
+        "name":"Supplement",
         "definition": "The difference of two angles whose sum is 180 degrees"
     },
     "degrees": {
-        "formula": "Math formula",
+        "name":"Degrees",
         "definition": "A unit used to measure an angle"
     },
     "minutes": {
-        "formula": "Math formula",
+        "name":"Minutes",
         "definition": "A unit for measuring angles more precise than degree units, 60 minutes is equal to 1 degrees"
     },
-    "trigword": {
-        "formula": "Math formula",
-        "definition": "Word definition"
+    "theta": {
+        "name":"Theta",
+        "definition": "A unit for measuring angles more precise than degree units, 60 minutes is equal to 1 degrees"
     },
 }
+
+trig["functions"] = functions
+trig["triangle"] = triangle
+trig["angles"] = angles
