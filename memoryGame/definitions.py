@@ -72,6 +72,10 @@ angles = {
         "name":"Theta",
         "definition": "A unit for measuring angles more precise than degree units, 60 minutes is equal to 1 degrees"
     },
+
+    #Field Lists should always be last element
+    "fieldList":["complement","supplement","degrees","minutes","theta"],
+    "subFieldList": ["name","definition"]
 }
 
 trig["functions"] = functions
