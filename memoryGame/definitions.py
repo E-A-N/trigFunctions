@@ -81,3 +81,5 @@ angles = {
 trig["functions"] = functions
 trig["triangle"] = triangle
 trig["angles"] = angles
+
+trig["angles"]["locate"] = lambda x: x + x #this is a test
