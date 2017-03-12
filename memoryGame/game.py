@@ -16,8 +16,16 @@ def triviaChoice(triv):
     optNum = len(subject) - 3
     fieldPick = random.randint(0,optNum)
     field = subject[ fieldList[ fieldPick ]]
-    optNum = len(field) - 1
-    subFieldPick = random.randint(0,optNum)
+    if len(subFieldList) > 1:
+        subNum = len(subFieldList) - 1
+    else:
+        subNum = 0
+    subNum = random.randint(0,subNum)
+    #rNum = random.randint(0,optNum)
+    print(subNum)
+    #print(subFieldList)
+    #print(field)
+    subFieldPick = subNum
     subField = field[ subFieldList[ subFieldPick ]]
     return subField
 
